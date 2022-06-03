@@ -13,7 +13,7 @@ app.use(bp.json());
 
 
 // //api routes
-app.use('/v1', userRoute);
+app.use('', qrRoute);
 
 
 app.get("/", (req, res) => {
